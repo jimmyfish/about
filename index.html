@@ -1,9 +1,1041 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title></title>
-</head>
-<body>
-
-</body>
+	<head>
+		<!-- Metas -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Hans | Home</title>
+		<!-- Favicons -->
+		<link rel="shortcut icon" href="web/img/favicon.ico">
+		<link rel="apple-touch-icon" href="web/img/apple-touch-icon.png">
+		<link rel="stylesheet" type="text/css" href="web/css/app.min.css">
+	</head>
+	<body>
+		<!-- Preloader -->
+		<div class="preloader bg-white" id="preloader">
+				<div class="spinner-wrap">
+						<div class="spinner"></div>
+				</div>
+		</div>
+		<!-- HEADER
+		============================================== -->
+		<header class="header header-1" id="header">
+			<nav class="navbar navbar-default navbar-fixed-top" id="navbar">
+				<!-- navbar -->
+				<div class="container">
+					<div class="navbar-header">
+						<button class="navbar-toggle nav-icon">
+						<i class="material-icons">menu</i>
+						</button>
+						<a class="navbar-brand" href="index.html">
+							<img class="logo-dark" src="web/img/logo_dark.png" alt="Hans">
+							<img class="logo-light" src="web/img/logo_light.png" alt="Hans">
+						</a>
+						<ul class="nav navbar-nav navbar-right navbar-icons">
+							<li>
+								<a class="search-toggle nav-icon" href="#">
+								<i class="material-icons">search</i></a>
+							</li>
+							<li class="dropdown hidden-xxs">
+								<a class="dropdown-toggle nav-icon" href="#" data-target="#" data-toggle="dropdown">
+								<i class="material-icons">more_vert</i></a>
+								<ul class="dropdown-menu dropdown-menu-right" id="sub-menu">
+									<li><a href="#">Action</a></li>
+									<li><a href="#">Another action</a></li>
+									<li><a href="#">Something else</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="navbar-sider">
+						<ul class="nav navbar-nav navbar-menu">
+							<li><a href="#header">Home</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#works">Works</a></li>
+							<li><a href="#service">Service</a></li>
+							<li><a href="#offers">Offers</a></li>
+							<li class="dropdown">
+								<a class="dropdown-toggle" href="#" data-target="#" data-toggle="dropdown">Pages</a>
+								<ul class="dropdown-menu">
+									<li><a href="blog-listing.html">Blog Listing</a></li>
+									<li><a href="blog-single.html">Single Post</a></li>
+									<li><a href="error.html">404 Error</a></li>
+								</ul>
+							</li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="sidenav-overlay"></div>
+			</nav>
+		</header>
+		<!-- CONTENT
+		============================================== -->
+		<main class="page-content">
+		<!-- Hero Section -->
+		<section class="home-header no-pd" id="hero">
+			<div class="bg-image" data-bg-image="web/img/home_header_bg.jpg" data-bg-position="center top">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-8">
+							<div class="intro-text">
+								<h1 class="title font-4x text-uppercase text-white">
+								Welcome
+								<span class="text-secondary">2</span> Hans
+								</h1>
+								<p class="hero-lead mg-t-md mg-b-md">I’m an award winner web and graphic designer specialized on clean
+									and modern layouts. I have strong passion for creating brilliant
+								user interfaces using the latest material design trends.</p>
+								<ul class="hero-socials">
+									<li class="wow fadeInUp" data-wow-delay="0.2s">
+										<a href="#" class="btn btn-fab s-facebook"><i class="fa fa-facebook material-icons"></i></a>
+									</li>
+									<li class="wow fadeInUp" data-wow-delay="0.4s">
+										<a href="#" class="btn btn-fab s-twitter"><i class="fa fa-twitter material-icons"></i></a>
+									</li>
+									<li class="wow fadeInUp" data-wow-delay="0.6s">
+										<a href="#" class="btn btn-fab s-behance"><i class="fa fa-behance material-icons"></i></a>
+									</li>
+									<li class="wow fadeInUp" data-wow-delay="0.8s">
+										<a href="#" class="btn btn-fab s-dribbble"><i class="fa fa-dribbble material-icons"></i></a>
+									</li>
+									<li class="wow fadeInUp" data-wow-delay="1.0s">
+										<a href="#" class="btn btn-fab s-linkedin"><i class="fa fa-linkedin material-icons"></i></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Counters Section -->
+		<section class="bg-primary padding-sm" id="counters">
+			<div class="container">
+				<div class="row text-center counter-wrap">
+					<div class="col-sm-3 counter-item">
+						<p class="counter-value" data-to="938"></p>
+						<p class="counter-desc">product sales</p>
+					</div>
+					<div class="col-sm-3 counter-item">
+						<p class="counter-value" data-to="876"></p>
+						<p class="counter-desc">facebook likes</p>
+					</div>
+					<div class="col-sm-3 counter-item">
+						<p class="counter-value" data-to="329"></p>
+						<p class="counter-desc">working hours</p>
+					</div>
+					<div class="col-sm-3 counter-item">
+						<p class="counter-value" data-to="160"></p>
+						<p class="counter-desc">coffees made</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- About Section -->
+		<section class="bg-light" id="about">
+			<div class="container">
+				<div class="section-header text-center">
+					<span class="subtext">About</span>
+					<h1 class="title">
+					<span>Introduction</span>
+					</h1>
+					<p class="lead">Morbi accumsan ipsum velit sodales tellus odio tincidunt auctor ornare
+						sed mauris vitae erat consequat auctor eu in elit class aptent taciti
+					sociosqu ad litora torquent conubia nostra.</p>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="card reveal mg-t-sm wow fadeInUp">
+							<div class="card-image">
+								<img class="activator" src="web/img/about_card.jpg" alt="">
+							</div>
+							<div class="card-content pd-md">
+								<a href="#" class="activator btn btn-primary btn-fab btn-fab-mini">
+									<i class="material-icons">more_vert</i>
+								</a>
+								<h3 class="title">Hans Goldstein</h3>
+								<p class="no-mg-b">Personal Details</p>
+							</div>
+							<div class="card-reveal pd-md">
+								<h3 class="title">Hans Goldstein<i class="closer material-icons pull-right">close</i></h3>
+								<p class="mg-t-md">Here is some additional information about this person what is only
+								revealed when clicked on.</p>
+								<p>Nullam viverra libero at nunc interdum, eget faucibus leo efficitur.
+									Curabitur convallis nec arcu sit amet dignissim. Praesent commodo
+								ex eu nisi aliquam, sit amet eleifend nunc iaculis.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-7 col-lg-offset-1 col-md-8">
+						<div id="intro-tabs">
+							<ul class="nav nav-tabs">
+								<li><a href="#tab-1" data-toggle="tab">Personality</a></li>
+								<li class="active"><a href="#tab-2" data-toggle="tab">The Story</a></li>
+								<li><a href="#tab-3" data-toggle="tab">Challanges</a></li>
+								<li><a href="#tab-4" data-toggle="tab">Awards</a></li>
+							</ul>
+							<div id="myTabContent" class="tab-content">
+								<div class="tab-pane fade" id="tab-1">
+									<p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla
+										single-origin coffee squid. Exercitation +1 labore velit, blog
+										sartorial PBR leggings next level wes anderson artisan four
+										loko farm-to-table craft beer twee. Qui photo booth letterpress,
+										commodo enim craft beer mlkshk aliquip jean shorts ullamco
+										ad vinyl cillum PBR. Homo nostrud organic, assumenda labore
+										aesthetic magna delectus mollit.
+									</p>
+								</div>
+								<div class="tab-pane fade active in" id="tab-2">
+									<p>Proin gravida nibh vel velit auctor aliquet denean sollicitudin,
+										lorem nec sagittis sem nibh id elit accumsan ipsum velit. Nam
+										nec tellus a odio tunt auctor a ornare odio. Sed no mauris
+										vitae erat consequat auctor eu in elit gravida nibh vel velit
+										auctor lorem nec sagittis sem nibh id elit accuman <a href="#">vitae erat consequat nest</a>                    ipsum velit. Nam nec tellus a odio tunt auctor a ornare odio.
+									Sed no mauris vitae erat consequat auctor eu in elit.</p>
+									<p>
+										<strong>Class apten taciti sociosqu ad litora torquent perbia nostra,
+										incept naeos mauris sodales etiam dolores vivamus et adipiscing?</strong>
+									</p>
+									<p>Slass apten taciti sociosqu ad litora torquent perbia nostra,
+										inceptos et henaeos mauris sodales massa auctor ornare odio.
+										Sed no mauris vitaes nam nec tellus a odio tunt auctor et ornare
+										odio. Sed no mauris vitae erat consequat auctor eu in elit
+										gravida nibh velitas.
+									</p>
+								</div>
+								<div class="tab-pane fade" id="tab-3">
+									<p>Etsy mixtape wayfarers, ethical wes anderson tofu before they
+										sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table
+										readymade. Messenger bag gentrify pitchfork tattooed craft
+										beer, iphone skateboard locavore carles etsy salvia banksy
+										hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify
+										squid 8-bit cred pitchfork.
+									</p>
+								</div>
+								<div class="tab-pane fade" id="tab-4">
+									<p>Trust fund seitan letterpress, keytar raw denim keffiyeh etsy
+										art party before they sold out master cleanse gluten-free squid
+										scenester freegan cosby sweater. Fanny pack portland seitan
+										DIY, art party locavore wolf cliche high life echo park Austin.
+										Cred vinyl keffiyeh DIY salvia PBR, banh mi before they sold
+									out farm-to-table VHS viral locavore cosby sweater.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Skills Section -->
+		<section class="bg-white" id="skills">
+			<div class="container">
+				<div class="section-header text-center mg-b-md">
+					<span class="subtext">Skills</span>
+					<h1 class="title">My Professions</h1>
+					<p class="lead">Accumsan ipsum sodales tellus odio tincidunt auctor ornare sed mauris
+						vitae erat auctor elit class aptent taciti sociosqu ad litora torquent
+					conubia nostra.</p>
+				</div>
+				<div class="row mg-b-lg">
+					<div class="col-md-12 col-sm-10 col-sm-offset-1 col-xs-12 progress-wrap">
+						<div class="progress">
+							<div class="progress-title">
+								<span class="subtext text-dark">Css3</span>
+							</div>
+							<div class="progress-bar wow skillHeight" style="width: 100%;">
+								<span class="visible-xs-block">100%</span>
+							</div>
+						</div>
+						<div class="progress">
+							<div class="progress-title">
+								<span class="subtext text-dark">Sketch</span>
+							</div>
+							<div class="progress-bar wow skillHeight" style="width: 60%;">
+								<span class="visible-xs-block">60%</span>
+							</div>
+						</div>
+						<div class="progress">
+							<div class="progress-title">
+								<span class="subtext text-dark">Design</span>
+							</div>
+							<div class="progress-bar wow skillHeight" style="width: 90%;">
+								<span class="visible-xs-block">90%</span>
+							</div>
+						</div>
+						<div class="progress">
+							<div class="progress-title">
+								<span class="subtext text-dark">jQuery</span>
+							</div>
+							<div class="progress-bar wow skillHeight" style="width: 50%;">
+								<span class="visible-xs-block">50%</span>
+							</div>
+						</div>
+						<div class="progress">
+							<div class="progress-bar wow skillHeight" style="width: 40%;">
+								<span class="visible-xs-block">40%</span>
+							</div>
+							<div class="progress-title">
+								<span class="subtext text-dark">Less</span>
+							</div>
+						</div>
+						<div class="progress">
+							<div class="progress-bar wow skillHeight" style="width: 80%;">
+								<span class="visible-xs-block">80%</span>
+							</div>
+							<div class="progress-title">
+								<span class="subtext text-dark">Html5</span>
+							</div>
+						</div>
+						<div class="progress">
+							<div class="progress-bar wow skillHeight" style="width: 100%;">
+								<span class="visible-xs-block">100%</span>
+							</div>
+							<div class="progress-title">
+								<span class="subtext text-dark">Sass</span>
+							</div>
+						</div>
+						<div class="progress">
+							<div class="progress-bar wow skillHeight" style="width: 50%;">
+								<span class="visible-xs-block">50%</span>
+							</div>
+							<div class="progress-title">
+								<span class="subtext text-dark">Ruby</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row mg-b-lg">
+					<div class="col-md-10 col-md-offset-1">
+						<p class="text-center">Slass apten taciti sociosqu ad litora torquent perbia nostra, inceptos
+							et ippsum henaeos mauris sodales massa auctor ornare odio. Sed no
+							mauris vitaes nam nec tellus a odio tunt auctor et ornare odio. Sed
+							no mauris vitae erat consequat auctor eu in elit gravida nibh vel
+							saggitas perbia nostra, inceptos et ippsum henaeos mauris sodales
+						massa auctor ornare odio.</p>
+					</div>
+				</div>
+				<div class="btn-group-double">
+					<a class="btn btn-raised btn-primary btn-lg btn-block" href="#">
+						<i class="fa fa-check material-icons"></i>Purchase Theme
+					</a>
+					<a class="btn btn-raised btn-default btn-lg btn-block" href="#">
+						<i class="fa fa-eye material-icons"></i>Check Features
+					</a>
+				</div>
+			</div>
+		</section>
+		<!-- Video Section -->
+		<section class="bg-video" id="video">
+			<a class="player" data-background-video="https://www.youtube.com/watch?v=AMFvTyotNUk"
+			data-fallback-image="web/img/video_fallback.jpg"></a>
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-md-12">
+						<h2 class="title text-white">
+						<span class="hidden-xs hidden-xxs">Watch Official</span>
+						<i class="material-icons play-icon">play_circle_filled</i>
+						<span class="hidden-xs hidden-xxs">Promo Video</span>
+						</h2>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Works Section -->
+		<section class="bg-white" id="works">
+			<div class="container">
+				<div class="section-header text-center">
+					<span class="subtext">Works</span>
+					<h1 class="title">Recent Projects</h1>
+					<p class="lead">Accumsan ipsum sodales tellus odio tincidunt auctor ornare sed mauris
+						vitae erat auctor elit class aptent taciti sociosqu ad litora torquent
+					conubia nostra.</p>
+				</div>
+				<div class="row">
+					<div class="button-group filter-button-group text-center mg-b-lg">
+						<button class="btn btn-sm btn-raised btn-primary" data-filter="*">All</button>
+						<button class="btn btn-sm" data-filter=".web-design">Web Design</button>
+						<button class="btn btn-sm" data-filter=".logo-design">Logo Design</button>
+						<button class="btn btn-sm" data-filter=".photography">Photography</button>
+						<button class="btn btn-sm" data-filter=".branding">Branding</button>
+						<button class="btn btn-sm" data-filter=".illustration">Illustration</button>
+					</div>
+					<div class="portfolio-grid" id="gallery">
+						<div class="portfolio-item portfolio-item--height2 logo-design">
+							<div class="mask">
+								<img src="web/img/project_01.jpg" alt="">
+								<a class="btn btn-default btn-fab" data-toggle="lightbox" data-title="Project 1"
+									href="web/img/project_01.jpg">
+									<i class="material-icons">add</i>
+								</a>
+							</div>
+						</div>
+						<div class="portfolio-item web-design">
+							<div class="mask">
+								<img src="web/img/project_02.jpg" alt="">
+								<a class="btn btn-default btn-fab" data-toggle="lightbox" data-title="Project 2"
+									href="web/img/project_02.jpg">
+									<i class="material-icons">add</i>
+								</a>
+							</div>
+						</div>
+						<div class="portfolio-item portfolio-item--height2 branding">
+							<div class="mask">
+								<img src="web/img/project_03.jpg" alt="">
+								<a class="btn btn-default btn-fab" data-toggle="lightbox" data-title="Project 3"
+									href="web/img/project_03.jpg">
+									<i class="material-icons">add</i>
+								</a>
+							</div>
+						</div>
+						<div class="portfolio-item web-design illustration">
+							<div class="mask">
+								<img src="web/img/project_04.jpg" alt="">
+								<a class="btn btn-default btn-fab" data-toggle="lightbox" data-title="Project 4"
+									href="web/img/project_04.jpg">
+									<i class="material-icons">add</i>
+								</a>
+							</div>
+						</div>
+						<div class="portfolio-item portfolio-item--height2 photography illustration">
+							<div class="mask">
+								<img src="web/img/project_05.jpg" alt="">
+								<a class="btn btn-default btn-fab" data-toggle="lightbox" data-title="Project 5"
+									href="web/img/project_05.jpg">
+									<i class="material-icons">add</i>
+								</a>
+							</div>
+						</div>
+						<div class="portfolio-item branding logo-design">
+							<div class="mask">
+								<img src="web/img/project_06.jpg" alt="">
+								<a class="btn btn-default btn-fab" data-toggle="lightbox" data-title="Project 6"
+									href="web/img/project_06.jpg">
+									<i class="material-icons">add</i>
+								</a>
+							</div>
+						</div>
+						<div class="portfolio-item portfolio-item--height2 illustration">
+							<div class="mask">
+								<img src="web/img/project_07.jpg" alt="">
+								<a class="btn btn-default btn-fab" data-toggle="lightbox" data-title="Project 7"
+									href="web/img/project_07.jpg">
+									<i class="material-icons">add</i>
+								</a>
+							</div>
+						</div>
+						<div class="portfolio-item photography">
+							<div class="mask">
+								<img src="web/img/project_08.jpg" alt="">
+								<a class="btn btn-default btn-fab" data-toggle="lightbox" data-title="Project 8"
+									href="web/img/project_08.jpg">
+									<i class="material-icons">add</i>
+								</a>
+							</div>
+						</div>
+						<div class="portfolio-item portfolio-item--height2 web-design">
+							<div class="mask">
+								<img src="web/img/project_09.jpg" alt="">
+								<a class="btn btn-default btn-fab" data-toggle="lightbox" data-title="Project 9"
+									href="web/img/project_09.jpg">
+									<i class="material-icons">add</i>
+								</a>
+							</div>
+						</div>
+						<div class="portfolio-item logo-design">
+							<div class="mask">
+								<img src="web/img/project_10.jpg" alt="">
+								<a class="btn btn-default btn-fab" data-toggle="lightbox" data-title="Project 10"
+									href="web/img/project_10.jpg">
+									<i class="material-icons">add</i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Services Section -->
+		<section class="bg-light" id="service">
+			<div class="container">
+				<div class="section-header text-center">
+					<span class="subtext">Service</span>
+					<h1 class="title">The Process</h1>
+					<p class="lead">Accumsan ipsum sodales tellus odio tincidunt auctor ornare sed mauris
+						vitae erat auctor elit class aptent taciti sociosqu ad litora torquent
+					conubia nostra.</p>
+				</div>
+				<div id="service-tabs">
+					<ul class="nav nav-tabs image-tabs">
+						<li>
+							<a class="text-center" href="#tab-branding" data-toggle="tab">
+								<div class="icon icon-alarm font-5x"></div>
+								<span class="tab-label">Branding</span>
+							</a>
+						</li>
+						<li class="active">
+							<a class="text-center" href="#tab-marketing" data-toggle="tab">
+								<div class="icon icon-browser font-5x"></div>
+								<span class="tab-label">Marketing</span>
+							</a>
+						</li>
+						<li>
+							<a class="text-center" href="#tab-developing" data-toggle="tab">
+								<div class="icon icon-blocks font-5x"></div>
+								<span class="tab-label">Developing</span>
+							</a>
+						</li>
+						<li>
+							<a class="text-center" href="#tab-management" data-toggle="tab">
+								<div class="icon icon-equalizer font-5x"></div>
+								<span class="tab-label">Management</span>
+							</a>
+						</li>
+					</ul>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="tab-content well well-lg">
+								<div class="tab-pane fade" id="tab-branding">
+									<p class="no-mg-b">Vestibulum quis sodales ante. Fusce sit amet convallis dui. Aenean
+										hendrerit in orci a iaculis. Aliquam dui dui, scelerisque eget
+										maximus ut, fermentum a dui. Mauris in laoreet velit, ac porta
+										nulla. Praesent blandit non arcu vel commodo. Phasellus ligula
+										lorem, vestibulum non dolor at, sodales consequat turpis. In
+									tellus justo, tincidunt sed rutrum ut, tempor vel elit.</p>
+								</div>
+								<div class="tab-pane fade active in" id="tab-marketing">
+									<p class="no-mg-b">Slass apten taciti sociosqu ad litora torquent perbia nostra,
+										inceptos et ippsum henaeos mauris sodales massa auctor ornare
+										se odio. Sed no mauris vitaes nam nec tellus a odio tunt auctor
+										et ornare odio. Sed no mauris vitae erat consequat auctor euin
+										elitas gravida nibh vel saggitas perbia nostra, inceptos et
+										ippsum henaeos mauris sodales massa auctor ornare odio sociosqu
+										ad litora torquent perbia nostra, inceptos et ippsum henaeos
+									mauris sodales massa auctor ornare.</p>
+								</div>
+								<div class="tab-pane fade" id="tab-developing">
+									<p class="no-mg-b">Aliquam nulla diam, consectetur a ornare in, efficitur condimentum
+										felis. Nunc risus nibh, feugiat at orci in, congue suscipit
+										tortor. Lorem ipsum dolor sit amet, consectetur adipiscing
+										elit. Praesent sed lorem cursus, consequat dolor eu, tincidunt
+										sapien. Nulla facilisi. Phasellus non neque tellus. Aenean
+										vestibulum turpis ac augue vehicula pellentesque. Suspendisse
+										malesuada rhoncus risus. Phasellus pharetra turpis ligula,
+										vel sodales arcu posuere nec. Sed lobortis vehicula nulla sodales
+										lacinia.
+									</p>
+								</div>
+								<div class="tab-pane fade" id="tab-management">
+									<p class="no-mg-b">Nunc nec risus orci. In congue aliquet iaculis. Vestibulum lobortis,
+										risus et mollis pharetra, mi dolor pretium tellus, sed efficitur
+										orci est id quam. Quisque dignissim nisi vel ante dictum luctus.
+										Ut eu volutpat sem. Morbi eu libero efficitur, ornare odio
+										at, tempor magna. Nullam in leo in velit lobortis molestie
+									at sit amet metus.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Quotes Section -->
+		<section class="bg-parallax" id="quotes">
+			<div class="container">
+				<div class="row text-center mg-b-md">
+					<div class="tab-content col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+						<div class="tab-pane fade" id="quote-1">
+							<span class="subtext">Steve Winter</span>
+							<p class="quote-text">"Slass apten taciti sociosqu ad litora torquent perbia nostra, inceptos
+							et ippsum henaeos mauris sodales massa auctor ornare se odio"</p>
+						</div>
+						<div class="tab-pane fade active in" id="quote-2">
+							<span class="subtext">Marcy Stone</span>
+							<p class="quote-text">“Morbi accumsan ipsum velit tellus aodio tincidunt auctor ornare
+								odio sed mauris vitae consequat auctor in elit nostra per inceptos
+								himenaeos”
+							</p>
+						</div>
+						<div class="tab-pane fade" id="quote-3">
+							<span class="subtext">John Riley</span>
+							<p class="quote-text">"Sed no mauris vitaes nam nec tellus a odio tunt auctor et ornare
+								odio. Sed no mauris vitae erat consequat auctor euin elitas gravida
+								saggitas"
+							</p>
+						</div>
+					</div>
+				</div>
+				<ul class="nav nav-tabs quote-tabs text-center no-mg-b">
+					<li>
+						<a href="#quote-1" data-toggle="tab">
+							<img class="tab-image" src="web/img/user_avatar_04.jpg" alt="">
+						</a>
+					</li>
+					<li class="active">
+						<a href="#quote-2" data-toggle="tab">
+							<img class="tab-image" src="web/img/user_avatar_05.jpg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#quote-3" data-toggle="tab">
+							<img class="tab-image" src="web/img/user_avatar_06.jpg" alt="">
+						</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<!-- News Section -->
+		<section class="bg-white" id="news">
+			<div class="container">
+				<div class="section-header text-center">
+					<span class="subtext">News</span>
+					<h1 class="title">Latest From Blog</h1>
+					<p class="lead">Morbi accumsan ipsum velit sodales tellus odio tincidunt auctor ornare
+						sed mauris vitae erat consequat auctor eu in elit class aptent taciti
+					sociosqu ad litora torquent.</p>
+				</div>
+				<div class="owl-carousel owl-theme" id="news-carousel">
+					<div class="item">
+						<article class="card blog-post post-format-standard shadow-z-1">
+							<a href="#" class="card-image">
+								<img class="activator" src="web/img/blog_featured_09.jpg" alt="">
+							</a>
+							<div class="card-content pd-md">
+								<a href="#" class="btn btn-primary btn-fab btn-fab-mini">
+									<i class="material-icons">subject</i>
+								</a>
+								<h3 class="title"><a href="#">Hello world!</a></h3>
+								<p class="mg-t-sm no-mg-b pd-t-xs">Slass apten taciti sociosqu ad litora torquent perbia nostra, inceptos
+									et ippsum henaeos mauris sodales massa auctor ornare odio sedno
+								perbia nostra, inceptos et ipsum auctor ornare odio.</p>
+							</div>
+							<div class="card-footer pd-md no-pd-t">
+								<a class="subtext" href="#">
+									<span class="text-primary">Read More</span>
+								</a>
+								<span class="meta text-light">
+									<i class="material-icons">chat_bubble_outline</i>37
+								</span>
+							</div>
+						</article>
+					</div>
+					<div class="item">
+						<article class="card blog-post post-format-standard shadow-z-1">
+							<a href="#" class="card-image">
+								<img class="activator" src="web/img/blog_featured_08.jpg" alt="">
+							</a>
+							<div class="card-content pd-md">
+								<a href="#" class="btn btn-primary btn-fab btn-fab-mini">
+									<i class="material-icons">subject</i>
+								</a>
+								<h3 class="title"><a href="#">Amazing blog post</a></h3>
+								<p class="mg-t-sm no-mg-b pd-t-xs">Slass apten taciti sociosqu ad litora torquent perbia nostra, inceptos
+									et ippsum henaeos mauris sodales massa auctor ornare odio sedno
+								perbia nostra, inceptos et ipsum auctor ornare odio.</p>
+							</div>
+							<div class="card-footer pd-md no-pd-t">
+								<a class="subtext" href="#">
+									<span class="text-primary">Read More</span>
+								</a>
+								<span class="meta text-light">
+									<i class="material-icons">chat_bubble_outline</i>09
+								</span>
+							</div>
+						</article>
+					</div>
+					<div class="item">
+						<article class="card blog-post post-format-standard shadow-z-1">
+							<a href="#" class="card-image">
+								<img class="activator" src="web/img/blog_featured_07.jpg" alt="">
+							</a>
+							<div class="card-content pd-md">
+								<a href="#" class="btn btn-primary btn-fab btn-fab-mini">
+									<i class="material-icons">subject</i>
+								</a>
+								<h3 class="title"><a href="#">Just another post</a></h3>
+								<p class="mg-t-sm no-mg-b pd-t-xs">Slass apten taciti sociosqu ad litora torquent perbia nostra, inceptos
+									et ippsum henaeos mauris sodales massa auctor ornare odio sedno
+								perbia nostra, inceptos et ipsum auctor ornare odio.</p>
+							</div>
+							<div class="card-footer pd-md no-pd-t">
+								<a class="subtext" href="#">
+									<span class="text-primary">Read More</span>
+								</a>
+								<span class="meta text-light">
+									<i class="material-icons">chat_bubble_outline</i>10
+								</span>
+							</div>
+						</article>
+					</div>
+					<div class="item">
+						<article class="card blog-post post-format-standard shadow-z-1">
+							<a href="#" class="card-image">
+								<img class="activator" src="web/img/blog_featured_06.jpg" alt="">
+							</a>
+							<div class="card-content pd-md">
+								<a href="#" class="btn btn-primary btn-fab btn-fab-mini">
+									<i class="material-icons">subject</i>
+								</a>
+								<h3 class="title"><a href="#">Sodales sed etiam</a></h3>
+								<p class="mg-t-sm no-mg-b pd-t-xs">Slass apten taciti sociosqu ad litora torquent perbia nostra, inceptos
+									et ippsum henaeos mauris sodales massa auctor ornare odio sedno
+								perbia nostra, inceptos et ipsum auctor ornare odio.</p>
+							</div>
+							<div class="card-footer pd-md no-pd-t">
+								<a class="subtext" href="#">
+									<span class="text-primary">Read More</span>
+								</a>
+								<span class="meta text-light">
+									<i class="material-icons">chat_bubble_outline</i>27
+								</span>
+							</div>
+						</article>
+					</div>
+					<div class="item">
+						<article class="card blog-post post-format-standard shadow-z-1">
+							<a href="#" class="card-image">
+								<img class="activator" src="web/img/blog_featured_05.jpg" alt="">
+							</a>
+							<div class="card-content pd-md">
+								<a href="#" class="btn btn-primary btn-fab btn-fab-mini">
+									<i class="material-icons">subject</i>
+								</a>
+								<h3 class="title"><a href="#">Vivamus auctor odio</a></h3>
+								<p class="mg-t-sm no-mg-b pd-t-xs">Slass apten taciti sociosqu ad litora torquent perbia nostra, inceptos
+									et ippsum henaeos mauris sodales massa auctor ornare odio sedno
+								perbia nostra, inceptos et ipsum auctor ornare odio.</p>
+							</div>
+							<div class="card-footer pd-md no-pd-t">
+								<a class="subtext" href="#">
+									<span class="text-primary">Read More</span>
+								</a>
+								<span class="meta text-light">
+									<i class="material-icons">chat_bubble_outline</i>35
+								</span>
+							</div>
+						</article>
+					</div>
+					<div class="item">
+						<article class="card blog-post post-format-standard shadow-z-1">
+							<a href="#" class="card-image">
+								<img class="activator" src="web/img/blog_featured_04.jpg" alt="">
+							</a>
+							<div class="card-content pd-md">
+								<a href="#" class="btn btn-primary btn-fab btn-fab-mini">
+									<i class="material-icons">subject</i>
+								</a>
+								<h3 class="title"><a href="#">Ad litora inceptos</a></h3>
+								<p class="mg-t-sm no-mg-b pd-t-xs">Slass apten taciti sociosqu ad litora torquent perbia nostra, inceptos
+									et ippsum henaeos mauris sodales massa auctor ornare odio sedno
+								perbia nostra, inceptos et ipsum auctor ornare odio.</p>
+							</div>
+							<div class="card-footer pd-md no-pd-t">
+								<a class="subtext" href="#">
+									<span class="text-primary">Read More</span>
+								</a>
+								<span class="meta text-light">
+									<i class="material-icons">chat_bubble_outline</i>14
+								</span>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Offers Section -->
+		<section class="bg-dark" id="offers">
+			<div class="container">
+				<div class="section-header text-center">
+					<span class="subtext">Offers</span>
+					<h1 class="title">Pricing Plans</h1>
+					<p class="lead">Accumsan ipsum sodales tellus odio tincidunt auctor ornare sed mauris
+					vitae erat</p>
+				</div>
+				<div class="row text-center">
+					<div class="col-lg-3 col-sm-6 mg-b-10">
+						<div class="panel panel-default shadow-z-1 wow fadeInUpBig" data-wow-delay="0.4s">
+							<div class="panel-heading">
+								<h4 class="font-light pd-t-20 no-mg-b">Standard</h4>
+								<p class="font-4x font-light pd-b-20 no-mg-b">
+									<sup>$</sup>10
+								</p>
+							</div>
+							<div class="panel-body">
+								<ul class="list-unstyled no-mg-b">
+									<li>Activity stream</li>
+									<li>Spreadsheet view</li>
+									<li>Email integration</li>
+									<li>Install &amp; setup</li>
+								</ul>
+							</div>
+							<div class="panel-footer">
+								<a class="btn btn-light" href="#">Purchase</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6 mg-b-10">
+						<div class="panel panel-primary shadow-z-2 wow fadeInUpBig" data-wow-delay="0.8s">
+							<div class="panel-heading bg-primary">
+								<h4 class="font-light pd-t-20 no-mg-b text-white">Advanced</h4>
+								<p class="font-4x font-light pd-b-20 no-mg-b text-white">
+									<sup>$</sup>20
+								</p>
+							</div>
+							<div class="panel-body">
+								<ul class="list-unstyled no-mg-b">
+									<li>Activity stream</li>
+									<li>Spreadsheet view</li>
+									<li>Email integration</li>
+									<li>Install &amp; setup</li>
+								</ul>
+							</div>
+							<div class="panel-footer">
+								<a class="btn btn-raised btn-primary" href="#">Purchase</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6 mg-b-10">
+						<div class="panel panel-default shadow-z-1 wow fadeInUpBig" data-wow-delay="1.2s">
+							<div class="panel-heading">
+								<h4 class="font-light pd-t-20 no-mg-b">Extended</h4>
+								<p class="font-4x font-light pd-b-20 no-mg-b">
+									<sup>$</sup>30
+								</p>
+							</div>
+							<div class="panel-body">
+								<ul class="list-unstyled no-mg-b">
+									<li>Activity stream</li>
+									<li>Spreadsheet view</li>
+									<li>Email integration</li>
+									<li>Install &amp; setup</li>
+								</ul>
+							</div>
+							<div class="panel-footer">
+								<a class="btn btn-light" href="#">Purchase</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<div class="panel panel-default shadow-z-1 wow fadeInUpBig" data-wow-delay="1.6s">
+							<div class="panel-heading">
+								<h4 class="font-light pd-t-20 no-mg-b">Ultimate</h4>
+								<p class="font-4x font-light pd-b-20 no-mg-b">
+									<sup>$</sup>50
+								</p>
+							</div>
+							<div class="panel-body">
+								<ul class="list-unstyled no-mg-b">
+									<li>Activity stream</li>
+									<li>Spreadsheet view</li>
+									<li>Email integration</li>
+									<li>Install &amp; setup</li>
+								</ul>
+							</div>
+							<div class="panel-footer">
+								<a class="btn btn-light" href="#">
+									Purchase
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Action Section -->
+		<section class="bg-primary padding-sm" id="action">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-9 text-center text-lg-left text-md-left">
+						<h2 class="text-white wow slideInLeft">Get started with your material personal website now</h2>
+					</div>
+					<div class="col-md-3 text-center text-lg-right text-md-right">
+						<a class="btn btn-raised btn-lg wow slideInRight" href="#">
+							<i class="material-icons">shop</i>Purchase Theme
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Contact Section -->
+		<section class="bg-light" id="contact">
+			<div class="container">
+				<div class="section-header text-center">
+					<span class="subtext">Contact</span>
+					<h1 class="title">Get In Touch</h1>
+					<p class="lead">Accumsan ipsum sodales tellus odio tincidunt auctor ornare sed mauris
+					vitae erat</p>
+				</div>
+				<div class="row text-center mg-b-lg">
+					<div class="col-sm-4 mg-b-40">
+						<i class="material-icons font-3x text-primary">location_on</i>
+						<h6 class="text-uppercase">Office</h6>
+						<p>121 King Street
+						<br>Melbourne Victoria 3000</p>
+					</div>
+					<div class="col-sm-4 mg-b-40">
+						<i class="material-icons font-3x text-primary">email</i>
+						<h6 class="text-uppercase">Email</h6>
+						<p>info@domain.com
+						<br>support@domain.com</p>
+					</div>
+					<div class="col-sm-4 mg-b-40">
+						<i class="material-icons font-3x text-primary">phone</i>
+						<h6 class="text-uppercase">Phone</h6>
+						<p>+72-123-456-789
+						<br>+72-123-456-555</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="well well-lg col-md-10 col-md-offset-1 contact-section-form">
+							<form class="clearfix">
+								<div class="col-sm-6">
+									<div class="form-group label-floating">
+										<label class="control-label" for="inputName">Name</label>
+										<input class="form-control" id="inputName" type="text">
+									</div>
+									<div class="form-group label-floating">
+										<label class="control-label" for="inputSite">Website</label>
+										<input class="form-control" id="inputSite" type="url">
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group label-floating">
+										<label class="control-label" for="inputEmail">Email</label>
+										<input class="form-control" id="inputEmail" type="email">
+									</div>
+									<div class="form-group label-floating">
+										<label class="control-label" for="inputPhone">Phone</label>
+										<input class="form-control" id="inputPhone" type="tel">
+									</div>
+								</div>
+								<div class="col-sm-12">
+									<div class="form-group label-floating">
+										<label class="control-label" for="inputMessage">Message</label>
+										<textarea class="form-control" rows="3" id="inputMessage"></textarea>
+									</div>
+								</div>
+								<div class="col-sm-12">
+									<div class="form-group text-center">
+										<button type="submit" class="btn btn-raised btn-lg btn-primary">
+										Send Message<i class="material-icons right hidden-xxs">send</i>
+										</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		</main>
+		<!-- FOOTER
+		============================================== -->
+		<footer class="bg-dark" id="page-footer">
+			<section class="footer-blog padding-sm">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-4 col-md-4 col-sm-6">
+							<h5 class="title text-white mg-b-30 no-mg-t">About Hans</h5>
+							<p class="mg-b-50">Aenean sollicitudin, lorem quis bendum auctor nisi elit consquat ipsum
+								nec sagittis se nibhid elit lorem quis bendum auctor nisi elit consequat
+							ipsum sed lorem elit consquat dolores.</p>
+						</div>
+						<div class="col-lg-2 col-lg-offset-1 col-md-2 col-md-offset-0 col-sm-3 col-sm-offset-1">
+							<h5 class="title text-white mg-b-30">Useful Links</h5>
+							<ul class="list-unstyled mg-b-50">
+								<li><a href="#">Adipiscing Elit</a></li>
+								<li><a href="#">Massa Vivamus</a></li>
+								<li><a href="#">Dolores Sed</a></li>
+								<li><a href="#">Consescetur</a></li>
+								<li><a href="#">Justo Eget</a></li>
+							</ul>
+						</div>
+						<div class="col-lg-2 col-lg-offset-0 col-md-2 col-md-offset-0 col-sm-2">
+							<h5 class="title text-white mg-b-30">Sitemap</h5>
+							<ul class="list-unstyled mg-b-50">
+								<li><a href="#">About</a></li>
+								<li><a href="#">Skills</a></li>
+								<li><a href="#">Works</a></li>
+								<li><a href="#">Services</a></li>
+								<li><a href="#">Contact</a></li>
+							</ul>
+						</div>
+						<div class="col-lg-3 col-md-4 col-md-offset-0 col-sm-12">
+							<h5 class="title text-white mg-b-30">Instagram</h5>
+							<div class="instagram-feed">
+								<a href="#">
+									<img src="web/img/instagram_01.jpg" alt="">
+								</a>
+								<a href="#">
+									<img src="web/img/instagram_02.jpg" alt="">
+								</a>
+								<a href="#">
+									<img src="web/img/instagram_03.jpg" alt="">
+								</a>
+								<a href="#">
+									<img src="web/img/instagram_04.jpg" alt="">
+								</a>
+								<a href="#">
+									<img src="web/img/instagram_05.jpg" alt="">
+								</a>
+								<a href="#">
+									<img src="web/img/instagram_06.jpg" alt="">
+								</a>
+								<a href="#" class="hidden-md hidden-lg">
+									<img src="web/img/instagram_07.jpg" alt="">
+								</a>
+								<a href="#" class="hidden-md hidden-lg">
+									<img src="web/img/instagram_08.jpg" alt="">
+								</a>
+								<a href="#" class="hidden-md hidden-lg">
+									<img src="web/img/instagram_09.jpg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="footer-copyright padding-xs">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6 text-left text-xs-center">
+							<p class="no-mg">© 2016 Hans by ErikTailor</p>
+						</div>
+						<div class="col-sm-6 hidden-xxs">
+							<ul class="list-inline text-right text-xs-center no-mg">
+								<li><a href="#">Sitemap</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+								<li><a href="#">Terms of Use</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+		</footer>
+		<!-- Search -->
+		<div class="search-overlay hidden" id="search">
+			<div class="search-bg"></div>
+			<div class="search-form">
+				<div class="container">
+					<div class="row">
+						<form class="hidden" id="searchForm">
+							<div class="form-group">
+								<input type="text" placeholder="Type and press enter.." class="form-control">
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<i class="material-icons closer">close</i>
+		</div>
+		<!-- Scrolltop -->
+		<button class="btn btn-default btn-fab btn-fab-mini btn-scrolltop" id="scrollTop">
+		<i class="material-icons">keyboard_arrow_up</i>
+		</button>
+		<script src="web/js/core.min.js"></script>
+		<script src="web/js/plugin.min.js"></script>
+		<script src="web/js/app.min.js"></script>
+	</body>
 </html>
